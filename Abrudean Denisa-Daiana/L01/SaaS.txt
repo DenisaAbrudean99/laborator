@@ -1,0 +1,3 @@
+Google Drive este un serviciu de stocare online a fisierelor. 
+Google Drive permite utilizatorilor sa stocheze fisiere pe serverele lor, sa sincronizeze fisiere intre dispozitive si distribuie fisiere.
+Pe langa un site-ul web, Google Drive ofera aplicatii cu functii offline pentru Windows si macOS calculatoare si Android si iOS smartphone-uri si tablete.
