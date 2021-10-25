@@ -52,12 +52,12 @@ namespace L03
 
             _token = credential.Token.AccessToken;
             Console.Write("Token: " + credential.Token.AccessToken);
-           // GetMyFiles();
+            GetMyFiles();
 
 
         }
 
-         /* static void GetMyFiles()
+          static void GetMyFiles()
         {
             var request = (HttpWebRequest)WebRequest.Create("https://www.googleapis.com/drive/v3/files?q='root'%20in%20parents");
             request.Headers.Add(HttpRequestHeader.Authorization, "Bearer " + _token);
@@ -78,7 +78,7 @@ namespace L03
                     }
                 }
             }
-        }*/
+        }
 
         static void UploadFile(){
             var body=new Google.Apis.Drive.v3.Data.File();
